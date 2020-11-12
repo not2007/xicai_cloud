@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html style="font-size: 72px;">
+	<head>
+			<meta charset="utf-8" />
+			<title>七彩云租机</title>
+			<meta charset="UTF-8" name="viewport" content="width=device-width,
+	initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+			<meta name="referrer" content="no-referrer" />
+			<link rel="stylesheet" type="text/css" href="./mobile/navbar.css" />
+		</head>
+		<script type="text/javascript">
+		 function getProjectName() {
+		 	var strPath = window.document.location.pathname;
+		 	var postPath = strPath.substring(0,strPath.substr(1).indexOf('/')+1);
+		 	return postPath;
+		     }
+			 function getBasePath(){
+			 	//获取当前网址
+			 	var curWwwPath=window.document.location.href;
+			  
+			 	//获取主机地址之后的目录
+			 	var pathName=window.document.location.pathname;
+			 	var pos=curWwwPath.indexOf(pathName);
+			  
+			 	//获取地址到端口号
+			 	var localhostPath=curWwwPath.substring(0,pos);
+			  
+			 	//项目名
+			 	var projectName=pathName.substring(0,pathName.substr(1).indexOf('/')+1); 
+			 	return (localhostPath+projectName);
+			 }
+		
+		function mobilePcRedirect() {
+			var sUserAgent= navigator.userAgent.toLowerCase();
+			var bIsIpad= sUserAgent.match(/ipad/i) == "ipad";
+			var bIsIphoneOs= sUserAgent.match(/iphone os/i) == "iphone os";
+			var bIsMidp= sUserAgent.match(/midp/i) == "midp";
+			var bIsUc7= sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+			var bIsUc= sUserAgent.match(/ucweb/i) == "ucweb";
+			var bIsAndroid= sUserAgent.match(/android/i) == "android";
+			var bIsCE= sUserAgent.match(/windows ce/i) == "windows ce";
+			var bIsWM= sUserAgent.match(/windows mobile/i) == "windows mobile";
+			if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+				console.log("手机端跳转页面URL");
+
+			} else {
+				console.log("PC端跳转页面URL");	
+				  window.location.href = getBasePath() + "/web.html";
+			}
+		};
+		mobilePcRedirect();
+		  </script>
+	<body>
+		<section>
+			<div class="first">
+				<img src="./mobile/img/head_bg.png" class="head_bg"  alt="">
+				   <img src="./mobile/img/logo.png" class="logo"  alt="">
+				   <div class="zi1">
+	                  合作联系：</br>
+					  19157375656(微信同号)
+				   </div>
+				   <img src="./web/img/wechat.jpg" class="erweima">
+				   <div class="zi2">微信扫一扫</div>
+			</div>
+		</section>    
+		<section>
+			<div class="two">
+			<img src="./mobile/img/future.png" class="biaoti"  alt="">
+			<img src="./mobile/img/guanxitu.jpg" class="guanxitu"  alt="">
+			<img src="./mobile/img/future_bg.jpg" class="future_bg"  alt="">
+			<div class="wenben">
+				 <div class="zi3">租赁模式：平台专注基建，店家专注经营</div>
+				 <ul>
+				 <li>以上各项费用全免，初期零硬件投入</li>
+				 <li>店家按需租用机器，启动门槛低，无资金压力</li>
+				 <li>全部参数可调，店家可保留自有玩法，机器由你做主</li>
+				 </ul> 
+			</div>
+			<div class="wenben">
+				<div class="zi3">获客模式：绑定线下客源，全网裂变传播</div>
+				<ul>
+				<li>抓住疫情机遇，利用私有流量，绑定线下客源</li>
+				<li>朋友圈裂变口碑传播，开拓全网客户，生意无边界</li>
+				<li>App体验佳，口碑好，全套方案成熟，一小时开店</li>
+				</ul> 
+			</div>
+		</section>
+		<section>
+		 <div class="three">
+				<img src="./mobile/img/xianshangfangan.png" class="biaoti" alt="" style="width:7.3748903509rem;">
+				<img src="./mobile/img/chuantongfangan.jpg" class="chuantongfangan" alt="">
+					<div class="wenben1">
+						<img src="./mobile/img/shuji.png" class="shuji" alt="">
+						<div class="zi3" style="left:1.9990131579rem;top:0.63629386rem"  >投资大、风险高</div>
+						      <ul style="top:1.5rem;left:1.9990131579rem;">
+						<li>游戏机、云化套件、App开发费、直播流量费、云服务器、部署费、机房租金、运维人工、场地专线费、水电物业、机器维修费等</li>
+						<li>某些厂商技术落后，无法提供线下体验，导致客户流失，项目失败</li>
+						</ul> 
+					</div>
+					<div class="wenben1">
+						<img src="./mobile/img/shandian.png" class="shuji" alt="">
+						<div class="zi3" style="left:1.9990131579rem;top:0.63629386rem">启动慢、杂事多</div>
+						<ul style="top:1.5rem;left:1.9990131579rem;">
+						<li>机房建设、机器部署、App开发，周期长费时费力</li>
+						<li>机房管理经验不足，机器维护、系统维护响应不及时</li>
+						<li>老板既要管经营还要管运维，无法专注推广盈利</li>
+						</ul> 
+					</div>
+				</div>
+		</section>
+		<section>
+			<div class="four">
+				<img src="./mobile/img/fanganyoushi.png" class="biaoti" sytle="width:7.1038377193rem;height:1.1406798246rem;" alt="">
+				<img src="./mobile/img/youshi.jpg" class="youshi" alt="">
+				<div class="wenben2">
+					<div class="zi3">① 成熟的方案</div>
+					<ul style="">
+					<li>七彩云玩家+七彩云租机+七彩云代理，一站式解决方案</li>
+					</ul> 
+				</div>
+				<div class="wenben2" style="height:2.3394736842rem">
+					<div class="zi3">② 七彩云玩家——优秀的游戏App</div>
+					<ul style="">
+					<li>App视频高清游戏流畅，完美重现线下体验</li>
+					<li>店家专享店铺名，可自行配置游戏房间信息和房间价格</li>
+					<a href="" style="color:#00fcff;"><li>体验版下载</li></a>
+					</ul> 
+				</div>
+				<div class="wenben2">
+					<div class="zi3">③ 七彩云租机——店家的经营助手</div>
+					<ul style="">
+					<li>自由配置店铺信息，灵活开展经营管理</li>
+					<li>查看各项经营数据，经营情况一目了然</li>
+					<li>裂变分享推广物料，支持发展下级代理</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="five">
+				<img src="./mobile/img/tuandui.png" class="biaoti"  style="width:5.5904605263rem;height:1.1180921053rem;"alt="">
+				<img src="./mobile/img/tuandui.jpg" class="tuandui" alt="">
+				<div class="wenben3">
+					<div class="zi3" style="">团队优势</div>
+					<ul style="list-style-type: none;">
+					<li>① 位于互联网产业核心的杭州</li>
+					<li>② 由知名上市公司资深团队创办</li>
+					<li>③ 丰富的技术积累和互联网经验</li>
+					</ul>
+				</div>
+	                   <div class="wenben3" style="width:9.0699561404rem;height:3.4945175439rem";>
+					<div class="zi3" style="">技术实力</div>
+					<ul style="list-style-type: none; ">
+					<li>① 多年深耕云游戏领域，自主研发的软硬件技术和整体解决方案</li>
+					<li>② 提供业界领先的高清视频、低延迟的云游戏体验</li>
+					<li>③ 独创的视频推流技术，业界流量成本最低，可让利给合作店家</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="six">
+			   <img src="./mobile/img/hezuo.png" class="biaoti"  style="height:1.180921053rem;width:7.8944078947rem;position:relative;"alt="">
+				<img src="./mobile/img/bg2.png" class="bg2" alt="">
+			<div class="wenben4">
+				<div class="zi3" style="font-size:0.2710526316rem;">全国范围<span>寻找</span>优秀<span>老板</span>，如果你是</div>
+				<ul style="margin-top:0.2936403509rem;">
+				<li>有经营实体游艺厅经验，熟悉行业;</li>
+				<li>有开拓线上游艺厅意愿，积极进取;</li>
+				<li>拥抱移动互联网，思维与时俱进。</li>
+				</ul>
+			</div>
+			<div class="wenben4" style="top:4.50765386rem;margin-top:0.3rem;">
+				<div class="zi3" style="font-size:0.2710526316rem;">请你<span>联系</span>我们。联系方式：</div>
+				<ul style="margin-top:0.2936403509rem;">
+				<li>七彩云租机商务热线：19157375656（微信同号）</li>
+				</ul>
+			</div>
+			<div class="end">
+				<div class="wenben5">
+					<ul style="list-style-type: none;color:#ffffff;top:0rem;">
+					<li>©2020 日照曦彩网络科技有限公司 版权所有</li>
+					<li>地址：山东省日照市岚山区岚山头佛手湾</li>
+					<li>邮箱：qicai2019@yeah.net</li>
+					<li>邮编：276808</li>
+					</ul>
+					 </div>
+			</div>
+			</div>
+		</section>
+	</body>
+	<script>
+	    "use strict";
+	    !function (e, t) {
+	    function n() {
+	        t.body ? t.body.style.fontSize = 12 * o + "px" : t.addEventListener("DOMContentLoaded", n);
+	    }function d() {
+	        var e = i.clientWidth / 10;i.style.fontSize = e + "px";
+	    }var i = t.documentElement,
+	        o = e.devicePixelRatio || 1;if (n(), d(), e.addEventListener("resize", d), e.addEventListener("pageshow", function (e) {
+	        e.persisted && d();
+	    }), o >= 2) {
+	        var a = t.createElement("body"),
+	            s = t.createElement("div");s.style.border = ".5px solid transparent", a.appendChild(s), i.appendChild(a), 1 === s.offsetHeight && i.classList.add("hairlines"), i.removeChild(a);
+	    }
+	    }(window, document);
+	</script>
+</html>

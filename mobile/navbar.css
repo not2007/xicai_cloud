@@ -1,0 +1,203 @@
+body {
+	margin: 0;
+	padding: 0;
+
+}
+		
+body {-webkit-overflow-scrolling : touch; 
+  background-color: #040910;
+	 background-size: 100% 100%;
+	 }
+	 .first{
+		 width:100%;
+	 }
+.head_bg{
+	width:100%;
+}
+.logo{
+			position:absolute;
+			left:2.5%;
+			top:0.4225877193rem;
+            width: 2.66535rem;
+          height:0.64375rem;
+	}
+.zi1{
+	font-family:PingFangSC-Regular;
+	font-size:0.27105rem;
+	color:#ffffff;
+	text-align:left;
+	position:absolute;		                                                                                                  ;
+	left:2.5%;
+	top:3.994726rem;
+}
+.erweima{
+	width:1.1293859649rem;
+	height:1.1293859649rem;
+	position:absolute;
+	left:2.5%;
+	top:5.3497698596rem;
+}
+.zi2{
+	font-family:PingFangSC-Regular;
+	font-size:0.225877193rem;
+	color:#ffffff;
+	text-align:left;
+	position:absolute;		                                                                                                  ;
+	left:2.5%;
+	top:6.592094421rem;
+}
+.two{
+   width:100%;
+   height:11.5214912281rem;
+   position:relative;
+}
+.biaoti{
+	height:1.0503289474rem;
+	width:5.5791666667rem;
+	position:relative;	
+	left:2.5%;
+}
+.guanxitu{
+	width:8.0186403509rem;
+	height:4.0996710526rem;
+	position:relative;
+	left:9.5%;
+}
+.future_bg{
+	width:100%;
+	height:4.2351973684rem;
+	position:relative;
+	top:1.2310307018rem;
+	z-index:-1;
+}
+.wenben{
+	width:9.557017544rem;
+	height:2.6037280702rem;
+	position:relative;
+	top:-4.1rem;
+	left:2.5%;
+}
+.zi3{
+	font-family:PingFangSC-Semibold;
+	font-size:0.3162280702rem;
+	color:#00fcff;
+	text-align:left;
+	position:absolute;																					 
+}
+ul{
+	font-family:PingFangSC-Regular;
+	font-size:0.225877193rem;
+	color:#ffffff;
+	text-align:left;
+	position:absolute;
+	top:0.5969298246rem;
+	list-style-position: inside;
+	margin:0;
+	padding: 0px;
+}
+li{
+		margin-bottom: 3px;
+}
+.three{
+	width:100%;
+	height:12.8825657895rem;
+	position:relative;
+}
+.chuantongfangan{
+	width:100%;
+	height:7.211622807rem;
+	position:relative;
+	z-index:-1;
+}
+.wenben1{
+	width:9.557017544rem;
+	height:2.705372807rem;
+	position:relative;
+	top:-2.8515350877rem;
+	left:2.5%;
+}
+.shuji{
+	width:1.705372807rem;
+	height:1.705372807rem;
+	position:absolute;
+    top:0.7rem;
+}
+.four{
+	width:100%;
+	height:13.4825657895rem;
+	position:relative;
+}
+.youshi{
+	width:8.4703947368rem;
+	height:5.1838815789rem;
+	position:relative;
+	left:7.5%;
+}
+.wenben2{
+	width:6.0309210526rem;
+	height:1.5394736842rem;
+	position:relative;
+	left:2.5%;
+}
+.five{
+	width:100%;
+	height:9.9831140351rem;
+	position:relative;
+}
+.tuandui{
+	width:100%;
+	height:7.8831140351rem;
+	position:relative;
+    z-index:-1;
+}
+.wenben3{
+	width:7.0699561404rem;
+	height:2.5072368421rem;
+	position:relative;
+	top:-5rem;
+	left:2.5%;
+}
+.six{
+	width:100%;
+	height:10.3490131576rem;
+	position:relative;
+}
+.bg2{
+	width:100%;
+	height:9.1680921046rem;
+	z-index:-1;
+}
+.wenben4{
+	width:8.7033991228rem;
+	height:2.3427631579rem;
+	position:absolute;
+	left:2.5%;
+    top:1.9326754386rem;
+}
+
+.zi3 span{
+	font-size:0.5421052632rem;
+	color:#ff009e;	
+}
+.end{
+	width:100%;
+	height:3.099342105rem;
+	position:relative;
+	background-color:#000000;
+	opacity:0.55;
+	 top:-3.099342105rem;
+
+}
+.bg1{
+	width:100%;
+	height:3.099342105rem;
+	z-index:-1;
+}
+.wenben5{
+	width:5.1951754386rem;
+	height:1.3439692982rem;
+	position:absolute;
+	left:2.5%;
+	top:0.7679824561rem;
+}
+body::-webkit-scrollbar {display: none;};
