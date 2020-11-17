@@ -108,7 +108,7 @@
 			
 			}
 			
-			@media only screen and (min-width: 1024px) {
+			@media only screen and (min-width: 200px) {
 				.contentBox {
 					/*flex-direction: row;*/
 					width: 1413px;
@@ -147,14 +147,21 @@
 				}
 				.erweimaxiazai{
 					background-color: #000000;
-					width:100vw;
-					height:100vh;
+			        background-size: cover;
+					background-attachment: fixed;
+					width: 100vw;
+					min-height:100%;
+					position: fixed;
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
 					opacity:0.85;
 					float:left;
-					position:absolute;
 					left:0;
 					top:0;
 					z-index:999;
+			
 				}
 				body::-webkit-scrollbar {display: none;};
 				.erweimaios{
@@ -162,6 +169,13 @@
 					left:796px;
 					top:432px;
 					opacity:1;
+				}
+				.suibian{
+					width:584px;
+					height:395px;
+					position:relative;
+					left:35%;
+					top:20%;
 				}
 			}
 		</style>
@@ -182,15 +196,15 @@
 				   <div class="di">
 				   				<ul style=" font-family:PingFangSC-Regular;font-size:0.2384649123rem;color:#00fcff;text-align:left;position:absolute;left:3.5526315789rem;margin-top :4%;margin-bottom :4%;list-style: none; line-height:0.5rem;">
 				   					   <li>海王捕鱼，决战万圣夜，王牌街机游戏</li>
-				   					   <li>操作简单，玩法刺激，众多boss等你站</li>
+				   					   <li>操作简单，玩法刺激，众多boss等你战</li>
 				   					   <li>消灭Boss，触发大招，横扫全场赢高分</li>
-				   					   <li>畅玩过瘾，完美在线游艺厅等</li>
+				   					   <li>畅玩过瘾，完美再现游艺厅的欢乐体验</li>
 				   				   </ul>
 				   </div>
 		    <img src="./img1/iphone.png" class="dashouji">
 			  <img src="./img1/xian.png" class="xian">
 			<div class="tiyan">体验版场地码：<span style="color:#00fcff;">888888</span></div>
-			<div class="shuru">输入场地码进入七彩云玩家曦彩旗舰店</div>
+			<div class="shuru">输入场地码进入七彩云旗舰店</div>
 			 <img src="./img1/btn.png" id="btn" class="btn">
 			 <div class="weibukuang">
 			 				  <div class="llllll">Copyright 曦彩网络科技有限公司</div>
@@ -211,13 +225,13 @@
 					<img src="./img/name.png" class="name" style="margin-top:40px;">
 					<ul style="font-family:PingFangSC-Regular;font-size: 22px;color: #00fcff;text-align: left; list-style-position: inside;">
 						<li style="margin-top:40px;">海王捕鱼，决战万圣夜，王牌街机游戏</li>
-						<li style="margin-top:22px;">操作简单，玩法刺激，众多boss等你站</li>
+						<li style="margin-top:22px;">操作简单，玩法刺激，众多boss等你战</li>
 						<li style="margin-top:22px;">消灭Boss，触发大招，横扫全场赢高分</li>
-						<li style="margin-top:22px;">畅玩过瘾，完美在线游艺厅等</li>
+						<li style="margin-top:22px;">畅玩过瘾，完美再现游艺厅的欢乐体验</li>
 					</ul>
 					<p style="font-family:PingFangSC-Semibold;font-size: 30px;margin-top: 102px;color: #fdffff;margin-left: 0px;">体验版场地码：<span style="color:#00fcff">888888</span></p>
-					<p style="font-family:PingFangSC-Regular;font-size: 22px;margin-top: 22px;color: #fdffff;margin-left: 0px;">输入场地码进入七彩云玩家曦彩旗舰店</p>
-                    <img src="./img/btn_ios.png" class="download" id="download1" >
+					<p style="font-family:PingFangSC-Regular;font-size: 22px;margin-top: 22px;color: #fdffff;margin-left: 0px;">输入场地码进入七彩云旗舰店</p>
+                    <img src="./img/btn_ios.png" class="download" id="download1">
 					<img src="./img/btn_android.png" class="download" id="download2"  style="margin-right:0px;">
 				</div>
 				<div style="clear: both;"></div>
@@ -230,14 +244,17 @@
 		</div>
 		</div>
 		<div class="erweimaxiazai" id="erweimaxiazai" style="display:none">
-		 <div  style="font-family:PingFangSC-Semibold;font-size: 36px;color:#ffffff;left:796px;top:300px;position:relative;letter-spacing: 5px;">手机页面下载</div>
-		 <img id="tupian"src="./img/ios_QRcode.png" style="position:relative;left:796px;top:340px;">
-		 <div style="font-family:PingFangSC-Regular;font-size: 26px;color: #ffffff;position:relative;top:385px;left:648px;">下载七彩云表情，联网后自动更新为七彩云玩家</div>
+			<div class="suibian">
+		 <div  style="font-family:PingFangSC-Semibold;font-size: 36px;color:#ffffff;left:172px;position:absolute;letter-spacing: 5px;">手机页面下载</div>
+		 <img id="tupian"src="./img/ios_QRcode.png" style="position:absolute;left:172px;top:82px;">
+		 <div style="font-family:PingFangSC-Regular;font-size: 26px;color: #ffffff;position:absolute;top:342px;left:opx;">(下载七彩云表情，联网后自动更新为七彩云玩家)</div>
 		</div>  
+		</div>
 		<div class="erweimaxiazai" id="erweimaxiazai1" style="display:none">
-		 <div  style="font-family:PingFangSC-Semibold;font-size: 36px;color:#ffffff;left:796px;top:300px;position:relative;letter-spacing: 5px;">手机页面下载</div>
-		 <img id="tupian"src="./img/android_QRcode.png" style="position:relative;left:796px;top:340px;width:234px;height:234px;">
-         </div>  
+			<div class="suibian">
+		 <div  style="font-family:PingFangSC-Semibold;font-size: 36px;color:#ffffff;left:172px;position:absolute;letter-spacing: 5px;">手机页面下载</div>
+		 <img id="tupian"src="./img/android_QRcode.png" style="position:absolute;left:172px;top:82px;width:234px;height:234px;">
+        </div> </div>  
 	<script>
 		function getProjectName() {
 		 	var strPath = window.document.location.pathname;
