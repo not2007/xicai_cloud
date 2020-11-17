@@ -1,0 +1,130 @@
+body {
+	margin: 0;
+	padding: 0;
+
+}
+body {-webkit-overflow-scrolling : touch; 
+  background-color: #04091c;
+	 background-size: 100% 100%;
+	 }
+	 .first{
+	 		 width:100%;
+	   
+	 }
+	 .tiyan{
+		  font-family:PingFangSC-Semibold;
+		  font-size:0.3614035088rem;
+		  color:#fdffff;
+		  text-align:center;
+		  position:relative;
+		  top:8.6501096491rem;
+	 }
+	 .shuru{
+		  font-family:PingFangSC-Regular;
+		   font-size:0.2384649123rem;
+		    color:#fdffff;
+			text-align:center;
+			position:relative;
+			 top:13.6501096491rem;
+	 }
+	 .xian{
+		 width:300px;
+		 position:absolute;
+		 left:1rem;
+		 top:9.1rem;
+	 }
+	 .beijing{
+		 width:100%;position:absolute;
+	 }
+	 .dalogo{
+		 position:absolute;
+		 			left:5.3%;
+		 			top:0.4225877193rem;
+		  width: 2.2813596491rem;
+		  height:0.6324561404rem;
+	 }
+	 .dianwan{
+		 font-family:PingFangSC-Semibold;
+		 font-size:0.225877193rem;
+		 color:#ffffff;
+		 text-align:left;
+		 position:absolute;
+		 left:4.0526315789rem;
+		 top:3.0719298246rem;
+	 }
+	 .tubiao{
+		 width:3.3091008772rem;
+		 height:0.5421052632rem;
+		 position:absolute;
+		  left:3.9926315789rem;
+		  top:3.8740350877rem;
+	 }
+	 .di{
+		 width:100%;
+		 height:2.6879385965rem;
+		 position:absolute;
+		 background-color:rgba(0,0,0, 0.5);
+		 top:5.0257675439rem;
+	 }
+
+	 .dashouji{
+		 width:4.0770833333rem;
+		 height:7.2280701754rem;
+		 position:absolute;
+		 top:2rem;
+		 left:0rem;
+	 }
+
+	 .btn{
+		 width:4.2916666667rem;
+		 height:0.835745614rem;
+		 position:absolute;
+		  top:12.6529605263rem;
+		  left:28%;
+		 }
+		 .hei{
+			 background-color:rgba(0,0,0,0.8);
+			 width:100%;
+			 height:100vh;
+			 position:absolute;
+			 top:0rem;
+			 z-index:999;
+		 }
+		 .icon_yun{
+			 width:1.9651315789rem;
+			 height:1.9651315789rem;
+			 position:absolute;
+			 top:5.8050438596rem;
+			 left:4.1396929825rem;
+		 }
+		 .lalala{
+			 font-family:PingFangSC-Regular;
+			  font-size:0.2936403509rem;
+			  color:#ffffff;
+			   position:absolute;
+			   top:8.0751096491rem;
+			   left:1.7486842105rem;
+		 }
+		 .weibukuang{
+			 width:100%;
+			 height:0.7453947368rem;
+			 background:#04091c;
+			 position:absolute;
+			 top:17rem;
+		 }
+		 .llllll{
+			 font-family:PingFangSC-Regular;
+			  font-size:0.2032894737rem;
+			  color:#666666;
+			  position:relative;
+			  text-align:center;
+			  top:0.2710526316rem;
+		 }
+		 .queding{
+			 width:2.8912280702rem;
+			 height:0.835745614rem;
+			  position:absolute;
+			  top:9.8050438596rem;
+			   left:3.7396929825rem;
+	
+		 }
