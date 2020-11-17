@@ -1,163 +1,346 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>我是猎妖师</title>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>七彩云玩家</title>
+		<meta charset="UTF-8" name="viewport" content="width=device-width,
+		initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+				<meta name="referrer" content="no-referrer" />
+				<link rel="stylesheet" href="phone.css">
 		<style type="text/css">
 			* {
 				margin: 0;
 				padding: 0;
 				text-decoration: none;
 			}
+			
 			body {
+	
+			}
+			
+			.bg {
+				/*width: 100%;*/
+				height: auto;
+				/*position: absolute;
+				left: 0;
+				top: 0;*/
 				overflow: hidden;
-				background-color: #000000;
+			}
+			
+			.logo {
+				position: absolute;
+				/*margin-top: 20px;
+				margin-left: 20px;*/
+				left: 5%;
+				top: 35px;
+			}
+			
+			.contentBox {
+				width: 100%;
+				/*background-color: gold;*/
+				flex-direction: column;
+				position: relative;
+				left: 0;
+				margin-top: 150px;
+				margin-bottom:145px;
+			}
+			
+			.phone {
+				position: relative;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+			
+			.footer{height:66px}
+			.blue{background-color:#04091c}
+			
+			#web {
+				overflow: hidden;
+				background-image: url(./img/bg.png);
+				background-size: cover;
+				background-color: #060d15;
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				background-position: center;
 				width: 100vw;
 				min-height: 100vh;
+			
 			}
-			.daohanglan{
-				width: 100vw;
-				height:100px;
-				background-color:#ffffff;
-				position:relative;
+			
+			.text_content {
+				width: 80%;
+				position: relative;
+				left: 50%;
+				transform: translateX(-50%);
+				color: white;
+				font-size: 24px;
+				/*background-color: black;*/
+				margin-top: 100px;
+				text-decoration: none;
+				/*text-align: center;*/
+				/*text-align: left;*/
 			}
-			.beijing{
-				 width: 1200px;
-				    height: 733px;
-				    background: url(background_img.png) no-repeat center center;
-					margin:auto;
+			
+			.download {
+				margin-top: 74px;
+				position: relative;
+				left: 16%;
+				transform: translateX(-50%);
+				margin-right:112px;
+			}
+			
+			.newdownload {
+				margin-top: 120px;
+				width: 484px;
+				height: 88px;
+				border-radius: 60px;
+				background-color: white;
+				color: rgb(248, 42, 13);
+				font-size: 32px;
+			}
+			
+			a {
+				color:#07aeef;
+				text-decoration:none;
+				}
+			
+			a:hover, a:active, a:focus {
+				color: #32322d;
+			
+			}
+			
+			@media only screen and (min-width: 200px) {
+				.contentBox {
+					/*flex-direction: row;*/
+					width: 1413px;
 					position: relative;
-					  top: 60px; left: 0; bottom: 0; right: 0;
-                    z-index:-999;
-			}
-			.lll{
-				width:1200px;
-				height:100px;
-				margin:auto;
-				position:relative;
-			}
-			.logo{
-				position:absolute;
-				left:20px;
-				top:20px;
-			}
-			.wenben{
-				width:681px;
-				height:360px;
-				position:relative;
-				
-			}
-			.zi1{
-				font-family:SourceHanSansCN-Bold;
-				font-size:52px;
-				color:#ffa200;
-				text-align:left;
-				position:relative;
-			}
-			.zi2{
-				font-family:SourceHanSansCN-Medium;
-				font-size:36px;
-				color:#ffffff;
-				text-align:left;
-				position:relative;
-				margin-top:60px;
-			}
-			.zi3{
-				font-family:SourceHanSansCN-Medium;
-				font-size:24px;
-				color:#ffffff;
-				text-align:left;
-				position:relative;
-				margin-top:50px;
-			}
-			.iphone{
-				position:relative;
-				float:right;
-				top:-359px;
-			}
-			.btn{
-				position:relative;
-				margin-top:82px;
-			}
-			.zi4{
-				font-family:SourceHanSansCN-Regular;
-				font-size:12x;
-				color:#ffffff;
-				text-align:left;
-				position:relative;
-				text-align:center;
-				top:850px;
-			}
-			@media only screen and (max-width: 1024px) {
-				.daohanglan{
+					left: 50%;
+					transform: translateX(-50%);
+					top: 5%;
+					margin-bottom:0px;
+				}
+				.text_content {
+					width: 47.6%;
+					left: 0;
+					float: left;
+					transform: none;
+					/*width: auto;*/
+					margin-top: 0;
+					margin-left: 100px;
+					top:0px;
+				}
+				.phone {
+					left: 0;
+					float: left;
+					transform: none;
+					top:-50px;
+				}
+				#all {
+					height: 90vh;
+					padding-bottom: 0px;
+				}
+				.download {
+					top: 0px;
+					left: 0;
+					transform: translateX(0);
+					margin-top: 66px;
+					margin-right:116px;
+				}
+				.erweimaxiazai{
+					background-color: #000000;
+			        background-size: cover;
+					background-attachment: fixed;
 					width: 100vw;
-					height:100px;
-					background-color:#ffffff;
+					min-height:100%;
+					position: fixed;
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					opacity:0.85;
+					float:left;
+					left:0;
+					top:0;
+					z-index:999;
+			
+				}
+				body::-webkit-scrollbar {display: none;};
+				.erweimaios{
 					position:relative;
+					left:796px;
+					top:432px;
+					opacity:1;
 				}
-				.beijing{
-					    height: 733px;
-					    background: url(background_img.png) no-repeat center center;
-						position: absolute;
-						  top: -1030px; left: 0; bottom: 0; right: 0;
-						width:100%;
-				}
-				.zi1{
-					color:#ffa200;
-				}
-				.wenben{
+				.suibian{
+					width:584px;
+					height:395px;
 					position:relative;
-					left:180px;
-					top:170px;
-					font-weight: 600; 
+					left:35%;
+					top:20%;
 				}
-				.iphone{
-				position:relative;
-				float:none;
-				top:200px;
-				}
-				.btn{
-					position:relative;
-					margin-top:82px;
-					left:180px;
-					top:-600px;
-				}
-				.zi4{
-				
-					top:1300px;
-				}
-				.lll{
-					width:0;
-					height:0;
-					margin:0;
-					position:absolute;
-				}
-				.logo{
-					position:absolute;
-					left:200px;
-					top:20px;
-				}
-				</style>
+			}
+		</style>
 	</head>
+
 	<body>
-		<div class="daohanglan">
-			<div class="lll">
-			<img src="logo_img.png" class="logo">
-			</div>
-			</div>
-		<div class="beijing">
-			<div class="wenben">
-				<div class="zi1">重现街机经典 &nbsp;&nbsp;再造王牌归来</div>
-				<div class="zi2">我是猎妖师之决战万圣夜</div>
-				<div class="zi3">万圣夜群魔出动，猎妖师决战异域<br>
-				猎杀妖怪赢高分，收集魂点兑奖励<br>
-				上手快，乐趣多，众多关卡等你来战<br>
-				打Boss，刷武器，大招连发横扫全场<br>
+		<div id="phone" style="display:none">
+			<div class="first">
+				<div class="hei" id="hei" style="display:none;">
+					<img src="./img1/icon_yun.png" class="icon_yun">
+					<div class="lalala">(下载七彩云表情，联网后自动更新为七彩云玩家)</div>
+					<img src="./img1/queding.png" id="queding" class="queding">
 				</div>
+				<img src="./img1/bg.png" class="beijing">
+				<img src="./img1/logo.png" class="dalogo">
+				  <div class="dianwan">电玩街机，在线直播，经典游戏，随时畅玩</div>
+				   <img src="./img1/name.png" class="tubiao">
+				   <div class="di">
+				   				<ul style=" font-family:PingFangSC-Regular;font-size:0.2384649123rem;color:#00fcff;text-align:left;position:absolute;left:3.5526315789rem;margin-top :4%;margin-bottom :4%;list-style: none; line-height:0.5rem;">
+				   					   <li>海王捕鱼，决战万圣夜，王牌街机游戏</li>
+				   					   <li>操作简单，玩法刺激，众多boss等你战</li>
+				   					   <li>消灭Boss，触发大招，横扫全场赢高分</li>
+				   					   <li>畅玩过瘾，完美再现游艺厅的欢乐体验</li>
+				   				   </ul>
+				   </div>
+		    <img src="./img1/iphone.png" class="dashouji">
+			  <img src="./img1/xian.png" class="xian">
+			<div class="tiyan">体验版场地码：<span style="color:#00fcff;">888888</span></div>
+			<div class="shuru">输入场地码进入七彩云旗舰店</div>
+			 <img src="./img1/btn.png" id="btn" class="btn">
+			 <div class="weibukuang">
+			 				  <div class="llllll">Copyright 曦彩网络科技有限公司</div>
+			 </div>
+
+			
 			</div>
-			<img src="iphone_img.png" class="iphone">
-			<img src="download_btn.png" class="btn">
 		</div>
-			<div class="zi4">Copyright © 2020杭州西朗科技版权所有</div>
-	</body>
-</html>
+		<div id="web" style="display:none;">
+			<!--<img src="img/img/background.jpg" class="bg" />-->
+			<img src="./img/LOGO.png" class="logo">
+
+			<div class="contentBox">
+				<img src="./img/iphone.png" class="phone">
+				<div class="text_content">
+					<!-- <div style="font-size: 24px;margin-top: 37px;">Download APP</div> -->
+					<div style="font-family:PingFangSC-Semibold; font-size: 28px;color: #ffffff;margin-top: 0px;">电玩街机，在线直播，经典游戏，随时畅玩</div>
+					<img src="./img/name.png" class="name" style="margin-top:40px;">
+					<ul style="font-family:PingFangSC-Regular;font-size: 22px;color: #00fcff;text-align: left; list-style-position: inside;">
+						<li style="margin-top:40px;">海王捕鱼，决战万圣夜，王牌街机游戏</li>
+						<li style="margin-top:22px;">操作简单，玩法刺激，众多boss等你战</li>
+						<li style="margin-top:22px;">消灭Boss，触发大招，横扫全场赢高分</li>
+						<li style="margin-top:22px;">畅玩过瘾，完美再现游艺厅的欢乐体验</li>
+					</ul>
+					<p style="font-family:PingFangSC-Semibold;font-size: 30px;margin-top: 102px;color: #fdffff;margin-left: 0px;">体验版场地码：<span style="color:#00fcff">888888</span></p>
+					<p style="font-family:PingFangSC-Regular;font-size: 22px;margin-top: 22px;color: #fdffff;margin-left: 0px;">输入场地码进入七彩云旗舰店</p>
+                    <img src="./img/btn_ios.png" class="download" id="download1">
+					<img src="./img/btn_android.png" class="download" id="download2"  style="margin-right:0px;">
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+			<div id="footer" class="footer blue">
+			<div class="footer center">
+				<p style="font-family:PingFangSC-Regular;text-align: center;font-size: 18px;color: #666666;"><br>Copyright 曦彩网络科技有限公司<br>
+				</p>
+              </div>
+		</div>
+		</div>
+		<div class="erweimaxiazai" id="erweimaxiazai" style="display:none">
+			<div class="suibian">
+		 <div  style="font-family:PingFangSC-Semibold;font-size: 36px;color:#ffffff;left:172px;position:absolute;letter-spacing: 5px;">手机页面下载</div>
+		 <img id="tupian"src="./img/ios_QRcode.png" style="position:absolute;left:172px;top:82px;">
+		 <div style="font-family:PingFangSC-Regular;font-size: 26px;color: #ffffff;position:absolute;top:342px;left:opx;">(下载七彩云表情，联网后自动更新为七彩云玩家)</div>
+		</div>  
+		</div>
+		<div class="erweimaxiazai" id="erweimaxiazai1" style="display:none">
+			<div class="suibian">
+		 <div  style="font-family:PingFangSC-Semibold;font-size: 36px;color:#ffffff;left:172px;position:absolute;letter-spacing: 5px;">手机页面下载</div>
+		 <img id="tupian"src="./img/android_QRcode.png" style="position:absolute;left:172px;top:82px;width:234px;height:234px;">
+        </div> </div>  
+	<script>
+		function getProjectName() {
+		 	var strPath = window.document.location.pathname;
+		 	var postPath = strPath.substring(0,strPath.substr(1).indexOf('/')+1);
+		 	return postPath;
+		     }
+			 function getBasePath(){
+			 	//获取当前网址
+			 	var curWwwPath=window.document.location.href;
+			  
+			 	//获取主机地址之后的目录
+			 	var pathName=window.document.location.pathname;
+			 	var pos=curWwwPath.indexOf(pathName);
+			  
+			 	//获取地址到端口号
+			 	var localhostPath=curWwwPath.substring(0,pos);
+			  
+			 	//项目名
+			 	var projectName=pathName.substring(0,pathName.substr(1).indexOf('/')+1); 
+			 	return (localhostPath+projectName);
+			 }
+		
+		function mobilePcRedirect() {
+			var sUserAgent= navigator.userAgent.toLowerCase();
+			var bIsIpad= sUserAgent.match(/ipad/i) == "ipad";
+			var bIsIphoneOs= sUserAgent.match(/iphone os/i) == "iphone os";
+			var bIsMidp= sUserAgent.match(/midp/i) == "midp";
+			var bIsUc7= sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+			var bIsUc= sUserAgent.match(/ucweb/i) == "ucweb";
+			var bIsAndroid= sUserAgent.match(/android/i) == "android";
+			var bIsCE= sUserAgent.match(/windows ce/i) == "windows ce";
+			var bIsWM= sUserAgent.match(/windows mobile/i) == "windows mobile";
+			if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+				console.log("手机端跳转页面URL");
+		      document.getElementById('phone').style.display="block";
+			} else {
+				console.log("PC端跳转页面URL");	
+				  document.getElementById('web').style.display="block";
+			}
+		};
+		mobilePcRedirect();
+		"use strict";
+		!function (e, t) {
+		function n() {
+		    t.body ? t.body.style.fontSize = 12 * o + "px" : t.addEventListener("DOMContentLoaded", n);
+		}function d() {
+		    var e = i.clientWidth / 10;i.style.fontSize = e + "px";
+		}var i = t.documentElement,
+		    o = e.devicePixelRatio || 1;if (n(), d(), e.addEventListener("resize", d), e.addEventListener("pageshow", function (e) {
+		    e.persisted && d();
+		}), o >= 2) {
+		    var a = t.createElement("body"),
+		        s = t.createElement("div");s.style.border = ".5px solid transparent", a.appendChild(s), i.appendChild(a), 1 === s.offsetHeight && i.classList.add("hairlines"), i.removeChild(a);
+		}
+		}(window, document);
+		document.getElementById('btn').addEventListener('click', function() {
+				var u = navigator.userAgent;
+				var device =""; //当前设备信息
+				if (u.indexOf('Android') > -1 || u.indexOf('Linux') > -1) {//安卓手机
+				    device = "Android";
+					window.location.href = 'https://at.umtrack.com/onelink/r09Pvq';
+				} else if (u.indexOf('iPhone') > -1) {//苹果手机
+				    device = "iPhone";
+					document.getElementById("hei").style.display="block";
+				} else if (u.indexOf('Windows Phone') > -1) {//winphone手机
+				    device = "WindowsPhone";
+				}
+				
+					})
+					document.getElementById('queding').addEventListener('click', function() {
+										window.location.href = 'https://at.umtrack.com/onelink/r09Pvq';
+											})
+					document.getElementById('hei').addEventListener('click', function() {
+										document.getElementById("hei").style.display="none";
+											})
+		document.getElementById('download1').addEventListener('click', function() {
+				document.getElementById("erweimaxiazai").style.display="block";
+					})
+		document.getElementById('erweimaxiazai').addEventListener('click', function() {
+							document.getElementById("erweimaxiazai").style.display="none";
+								})
+								document.getElementById('download2').addEventListener('click', function() {
+										document.getElementById("erweimaxiazai1").style.display="block";
+											})
+											document.getElementById('erweimaxiazai1').addEventListener('click', function() {
+																document.getElementById("erweimaxiazai1").style.display="none";
+																	})
+	</script>
+</body></html>
